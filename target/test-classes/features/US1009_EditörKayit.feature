@@ -21,6 +21,6 @@ Feature:US1009 Scenario Outline ile editör database sayfasina kayit
     When kullanici "<firstname>" ile arama yapar
     Then isim bölümünde "<firstname>" oldugunu dogrular
 
-Examples:
-    |firstname|lastname|position|office|extension|startDate|salary|
-    |mehmet   |bulut   |amele   |amsterdam|amele |2020-02-01|200  |
+    Examples:
+      | firstname | lastname | position | office    | extension | startDate  | salary |
+      | mehmet    | bulut    | amele    | amsterdam | amele     | 2020-02-01 | 500 |

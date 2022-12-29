@@ -1,5 +1,5 @@
 Feature: US1001_amazon_search
-
+@paralel1
   Scenario: TC01_Amazon Search Testi
 
     Given kullanıcı amazon sayfasına gider
@@ -15,3 +15,5 @@ Feature: US1001_amazon_search
     Given kullanıcı amazon sayfasına gider
     And flower icin arama yapar
     Then sonucların flower icerdigini test eder
+
+
