@@ -1,4 +1,4 @@
-@Herokuapp
+@deneme234
 Feature: US1010 Herokuapp sayfasinda Add Butonu testi
 
   Scenario: TC15 sonradan görünen elemanlar calışmalı

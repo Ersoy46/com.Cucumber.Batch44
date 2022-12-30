@@ -1,4 +1,4 @@
-@Editör
+@Editor
 Feature:US1009 Scenario Outline ile editör database sayfasina kayit
 
 

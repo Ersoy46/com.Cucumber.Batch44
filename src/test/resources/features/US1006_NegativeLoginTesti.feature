@@ -1,9 +1,10 @@
+@rapor1
 Feature: US1006 Negative Login Testi
 
   Scenario: TC09 yanlis username, dogru sifre ile giris yapilamaz
 
     Given kullanıcı "HMCUrl" sayfasına gider
-    Then login butonuna basar
+    Then login linkine tıklar
     And kullanici adi olarak "HMCWrongUsername" girer
     And password olarak "HMCValidPassword" girer
     Then login butonuna basar

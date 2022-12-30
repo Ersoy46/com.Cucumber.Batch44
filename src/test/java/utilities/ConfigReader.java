@@ -22,7 +22,7 @@ public class ConfigReader {
             throw new RuntimeException(e);
         }
 
-        //deneme
+
     }
 
     public static String getProperty(String key){
