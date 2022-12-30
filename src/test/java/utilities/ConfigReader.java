@@ -21,6 +21,8 @@ public class ConfigReader {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
+
+        //deneme
     }
 
     public static String getProperty(String key){
