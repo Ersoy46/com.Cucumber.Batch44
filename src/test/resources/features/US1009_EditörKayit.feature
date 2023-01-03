@@ -23,4 +23,4 @@ Feature:US1009 Scenario Outline ile editör database sayfasina kayit
 
     Examples:
       | firstname | lastname | position | office    | extension | startDate  | salary |
-      | mehmet    | bulut    | amele    | amsterdam | amele     | 2020-02-01 | 500 |
+      | mehmet    | bulut    | amele    | amsterdam | amele     | 2020-02-01 | 200 |
