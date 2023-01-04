@@ -3,7 +3,7 @@ Feature: US1010 Herokuapp sayfasinda Add Butonu testi
 
   Scenario: TC15 sonradan görünen elemanlar calışmalı
 
-   Given kullanici adi olarak "HerokuappUrl" girer
+   Given kullanıcı "HerokuappUrl" sayfasına gider
     When Add Element butonuna basin
     Then Delete butonu görününceye kadar bekler
     And Delete butonunun göründügünü test eder

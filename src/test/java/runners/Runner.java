@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
                 "junit:target/xml-report/cucumber.xml"},
         features = "src/test/resources/features",
         glue = "stepdefinitions",
-        tags = "@deneme234",
+        tags = "@hotel",
         dryRun = false
 
 )
@@ -20,4 +20,3 @@ import org.junit.runner.RunWith;
 public class Runner {
 
 }
-

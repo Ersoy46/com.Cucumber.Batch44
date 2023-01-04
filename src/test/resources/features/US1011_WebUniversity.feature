@@ -10,7 +10,7 @@ Feature: US1011 WebUniversity window handle
     And "<username>" ve "<password>"  kutularina deger yazar
     And WebUniversity Login butonuna basar
     And Popup'ta cikan yazinin "validaton failed" oldgunu test eder
-    Then Ok diyerek Popus'i kapatir
+    Then Ok diyerek Popup'i kapatir
     And Ilk sayfaya geri döner
     And Ilk sayfaya döndügünü test eder
    And sayfayi kapatir

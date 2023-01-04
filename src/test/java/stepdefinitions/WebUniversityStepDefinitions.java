@@ -46,7 +46,7 @@ webUniversityPage.webuniversityLoginButonu.click();
         Assert.assertEquals(popupYazi,alertYazisi);
     }
 
-    @Then("Ok diyerek Popus'i kapatir")
+    @Then("Ok diyerek Popup'i kapatir")
     public void ok_diyerek_popus_i_kapatir() {
 Driver.getDriver().switchTo().alert().accept();
     }
